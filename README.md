@@ -1,24 +1,24 @@
-# DIO - Trilha .NET - API e Entity Framework
-www.dio.me
+# DIO - .NET Trail - API and Entity Framework
+[Digital Innovation One](https://www.dio.me/?ref=RE6NDV822B)
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de API e Entity Framework, da trilha .NET da DIO.
+## Design challenge
 
-## Contexto
-Você precisa construir um sistema gerenciador de tarefas, onde você poderá cadastrar uma lista de tarefas que permitirá organizar melhor a sua rotina.
+For this challenge, I needed to use his knowledge acquired in the series of studies on API and Entity Framework, from DIO's .NET track.
 
-Essa lista de tarefas precisa ter um CRUD, ou seja, deverá permitir a você obter os registros, criar, salvar e deletar esses registros.
+## Context
+I needed to build a task manager system, where you can register a list of tasks that will allow you to better organize a routine.
 
-A sua aplicação deverá ser do tipo Web API ou MVC, fique a vontade para implementar a solução que achar mais adequado.
+This task list needs to have a CRUD, that is, it should allow you to get the records, create, save and delete these records.
 
-A sua classe principal, a classe de tarefa, deve ser a seguinte:
+I had the option of creating the application as a Web API or MVC type, I chose Web API.
+
 
 ![Diagrama da classe Tarefa](diagrama.png)
 
-Não se esqueça de gerar a sua migration para atualização no banco de dados.
+The migration to update the database was generated.
 
-## Métodos esperados
-É esperado que você crie o seus métodos conforme a seguir:
+## Methods
+The methods were created according to the example below:
 
 
 **Swagger**
@@ -41,7 +41,7 @@ Não se esqueça de gerar a sua migration para atualização no banco de dados.
 | GET    | /Tarefa/ObterPorStatus  | status    | N/A           |
 | POST   | /Tarefa                 | N/A       | Schema Tarefa |
 
-Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem
+This is the Task schema (model), used to pass to methods that require:
 
 ```json
 {
@@ -54,5 +54,7 @@ Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que e
 ```
 
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## Solution
+The code was in half, I continued obeying the rules described above, so that we have a functional program.
+
+ [Certificate: 📜](https://www.dio.me/certificate/E947132F/share)
